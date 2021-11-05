@@ -1,4 +1,4 @@
-2 pages:
+3 pages:
   - Accueil
   - Chambres
   - Réservation
