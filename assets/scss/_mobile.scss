@@ -1,10 +1,48 @@
 .banniere {
-    height: 100vh;
+  
     background-color: $c5;
     border: 5px solid rgb(14, 13, 13);
 }
 
 .presentation {
-    height: 300px;
+    
 
+}
+
+.chambre {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+    &_item {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-around;
+       height: 300px; 
+    }
+    div {
+        display: flex;
+        justify-content: space-around;
+    }
+    &_item:nth-child(1) {
+        background: url('../img/photo3.jpg') center center no-repeat;
+        background-size:  cover;
+    }
+    &_item:nth-child(2) {
+        background: url('../img/photo2.jpg') center center no-repeat;
+        background-size:  cover;
+    }
+    &_item:nth-child(3) {
+        background: url('../img/photo4.jpg') center center no-repeat;
+        background-size:  cover;
+    }
+    &_item:nth-child(4) {
+        background: url('../img/photo5.jpg') center center no-repeat;
+        background-size:  cover;
+    }
+
+}
+h2 {
+    color: $c4;
 }

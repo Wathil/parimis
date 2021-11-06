@@ -4,13 +4,45 @@
   font-display: swap;
 }
 .banniere {
-  height: 100vh;
   background-color: #f18c85;
   border: 5px solid #0e0d0d;
 }
 
-.presentation {
+.chambre {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.chambre_item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
   height: 300px;
+}
+.chambre div {
+  display: flex;
+  justify-content: space-around;
+}
+.chambre_item:nth-child(1) {
+  background: url("../img/photo3.jpg") center center no-repeat;
+  background-size: cover;
+}
+.chambre_item:nth-child(2) {
+  background: url("../img/photo2.jpg") center center no-repeat;
+  background-size: cover;
+}
+.chambre_item:nth-child(3) {
+  background: url("../img/photo4.jpg") center center no-repeat;
+  background-size: cover;
+}
+.chambre_item:nth-child(4) {
+  background: url("../img/photo5.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  color: #CC0F02;
 }
 
 /*# sourceMappingURL=style.css.map */
