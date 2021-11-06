@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "riesling_regular";
+  src: url("../fonts/riesling_regular_macroman/riesling-webfont.woff") format("woff");
+  font-display: swap;
+}
+.banniere {
+  height: 100vh;
+  background-color: #f18c85;
+  border: 5px solid #0e0d0d;
+}
+
+.presentation {
+  height: 300px;
+}
+
+/*# sourceMappingURL=style.css.map */
