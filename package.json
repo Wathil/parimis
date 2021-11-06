@@ -1,0 +1,19 @@
+{
+  "name": "parimis",
+  "version": "1.0.0",
+  "description": "Site de réservation d'un hôtel",
+  "main": "index.js",
+  "scripts": {
+    "sass" : "sass --watch ./assets/scss/style.scss:./assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wathil/parimis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wathil/parimis/issues"
+  },
+  "homepage": "https://github.com/Wathil/parimis#readme"
+}
