@@ -4,30 +4,30 @@
 
 header {
     background-color: white;
+
 }
 
 header picture {
     position: relative;
-}
-
-header picture img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 
-header picture div {
+header picture a {
     position: absolute;
-    bottom: 10rem;
+    bottom:4em;
     left: 50%;
     transform: translateX(-30rem);
-    border-radius: 10px;
-    padding: 1rem 8rem;
-}
-
-header picture div p {
-    color: black;
-    font-family: "riesling_regular";
-    font-size: 4rem;
-    background-color: rgba($color:white, $alpha: 0.8);
+    background-color: $c3;
+    border-radius:1.5em;
+    color:white;
+    text-transform:uppercase;
+    font: "riesling_regular";
+    padding:1em 1.5em;
+    transition-duration: 500ms;
+    text-decoration: none;
+    &:hover {
+        color: $c3;
+        background-color: white;
+    }
 }
