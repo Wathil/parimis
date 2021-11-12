@@ -1,3 +1,11 @@
+Trello: https://trello.com/b/9SwkFTC0/scrum
+
+3 pages:
+
+  Accueil
+  Chambres
+  Réservation
+
 # parimis
 L'Hôtel PARIMIS ***** est un hôtel de grand standing venant de s'implanter à Paris, il y a un mois.
 
