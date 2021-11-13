@@ -14,10 +14,10 @@
         <h1>Section 1</h1>
     </header>
     <main>
-        <section class="presentation">
+        <section class="section2">
             <h2>Section 2 présentation de l'hôtel</h2>
         </section>
-        <section class="section3">
+        <section class="section section3" id="chambres">
             <h2 class="section3__titre">Nos chambres</h2>
             <div class="section3__bloc-chambre">
                 <div class="chambre">
@@ -26,7 +26,7 @@
                         <h3>Chambre standard</h3>
                         <p>Tarif pour :   <br>
                             1 lit double <br>
-                            Superficie : 25m<span class="exposant">2</span> <br>
+                            Superficie : 25m<sup>2</sup> <br>
                             <span><i class="fas fa-ban"></i></span>Annulation gratuite
                             <span><i class="fas fa-coffee"></i></span>Petit-déjeuner inclus <br>
                             <span><i class="fas fa-wifi"></i></span>Wi-Fi gratuit 
@@ -39,10 +39,10 @@
                 <div class="chambre">
                     <div class="chambre__image"><img src="assets/img/photo2.jpg" width="100%" srcset="assets/img/photo2.jpg" alt="Photo de la chambre double"></div>
                     <div class="chambre__description">
-                        <h3>Chambre triple </h3>
+                        <h3>Chambre double </h3>
                         <p>Tarif pour :   <br>
                             2 lits doubles <br>
-                            Superficie : 40m<span class="exposant">2</span> <br>
+                            Superficie : 40m<sup>2</sup> <br>
                             <span><i class="fas fa-ban"></i></span>Annulation gratuite
                             <span><i class="fas fa-coffee"></i></span>Petit-déjeuner inclus <br>
                             <span><i class="fas fa-wifi"></i></span>Wi-Fi gratuit 
@@ -54,10 +54,10 @@
                 <div class="chambre">
                     <div class="chambre__image"><img src="assets/img/photo4.jpg" width="100%" srcset="assets/img/photo4.jpg" alt="Photo de la chambre double"></div>
                     <div class="chambre__description">
-                        <h3>Chambre double avec lits séparés</h3>
+                        <h3>Chambre triple</h3>
                         <p>Tarif pour :   <br>
                             1 lit double <br>
-                            Superficie : 40m<span class="exposant">2</span> <br>
+                            Superficie : 40m<sup>2</sup> <br>
                             <span><i class="fas fa-ban"></i></span>Annulation gratuite
                             <span><i class="fas fa-coffee"></i></span>Petit-déjeuner inclus <br>
                             <span><i class="fas fa-wifi"></i></span>Wi-Fi gratuit 
@@ -69,10 +69,10 @@
                 <div class="chambre">
                     <div><img src="assets/img/photo5.jpg" width="100%" srcset="assets/img/photo5.jpg" alt="Photo de la suite"></div>
                     <div class="chambre__description">
-                        <h3>Suite présidentielle</h3>
+                        <h3>Suite </h3>
                         <p>Tarif pour :   <br>
                             1 lit double <br>
-                            Superficie : 60m<span class="exposant">2</span> <br>
+                            Superficie : 60m<sup>2</sup> <br>
                             <span><i class="fas fa-ban"></i></span>Annulation gratuite
                             <span><i class="fas fa-coffee"></i></span>Petit-déjeuner inclus <br>
                             <span><i class="fas fa-wifi"></i></span>Wi-Fi gratuit 
@@ -83,8 +83,27 @@
                 </div>
             </div>
         </section>
-        <section>
-            
+        <section class="section section4" id="contact-form">
+            <h2><i class="fab fa-battle-net"></i></br>Nous contacter</h2>
+            <form action="#">
+                <div class="form-group">
+                    <label for="firstname">Prénom</label>
+                    <input type="text" name="firstname" id="firstname" minlength="2" maxlength="30" placeholder="Votre prénom">
+                </div>
+                <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input type="text" name="name" id="name" minlength="2" maxlength="30" placeholder="Votre nom">
+                </div>
+                <div class="form-group">
+                    <label for="email">Nom</label>
+                    <input type="email" name="email" id="email" placeholder="Votre email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <input type="submit" value="Envoyer">
+            </form>
         </section>
     </main>
     <footer>

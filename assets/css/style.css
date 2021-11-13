@@ -3,13 +3,24 @@
   src: url("../fonts/riesling_regular_macroman/riesling-webfont.woff") format("woff");
   font-display: swap;
 }
+.section {
+  padding: 10px;
+}
+
 .banniere {
+  height: 50vh;
   background-color: #f18c85;
   border: 5px solid #0e0d0d;
 }
 
+.section2 {
+  height: 30vh;
+}
+
+.section3 {
+  background-color: #ededed;
+}
 .section3__bloc-chambre {
-  background-color: #f18c85;
   display: flex;
   flex-direction: column;
   padding: 5px;
@@ -18,48 +29,98 @@
 .section3__bloc-chambre .chambre {
   display: flex;
   flex-direction: column;
+  box-shadow: 0 1px 2px #000;
 }
 .section3__bloc-chambre .chambre__description {
   background-color: #fff;
   padding: 10px;
+  margin-top: -5px;
 }
 .section3__bloc-chambre .chambre__description h3 {
   color: #fff;
   border: 1px solid #800A01;
   background-color: #f18c85;
   padding: 5px;
+  margin: 0;
   text-shadow: 0px 2px 2px #000;
 }
 .section3__bloc-chambre .chambre__description button {
-  background-color: #CC0F02;
-  border: 1px solid #800A01;
-  border-radius: 7px;
+  box-shadow: 0 1px 2px #800A01;
+  background-color: #800A01;
+  border: none;
   padding: 8px 15px;
-  box-shadow: 2px 2px 3px #800A01;
   color: #fff;
   transition: all 300ms;
   font-size: 1em;
   box-sizing: border-box;
+  width: 200px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .section3__bloc-chambre .chambre__description button:hover {
-  background-color: #800A01;
-  box-shadow: 2px 2px 3px #CC0F02;
-  border: 1px solid #fff;
+  background-color: #CC0F02;
+  box-shadow: 0 1px 2px #CC0F02;
 }
 .section3__bloc-chambre .chambre__description span {
   margin-right: 5px;
   color: #800A01;
   font-size: 0.8em;
 }
-.section3__bloc-chambre .chambre__description .exposant {
-  font-size: 0.7em;
-  color: #000;
+
+.section4 h2 {
+  margin-top: 50px;
+  text-align: center;
+}
+.section4 form {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ededed;
+  margin-bottom: 20px;
+}
+.section4 .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.section4 input:focus {
+  border-color: #800A01;
+}
+.section4 input[type=submit] {
+  width: 200px;
   position: relative;
-  top: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #d4d4d4;
+  outline: none;
+  border: #6e6e6e;
+  padding: 10px;
 }
 
 h2 {
-  color: #CC0F02;
+  color: #000;
+  margin: 10px;
+  font-family: riesling_regular;
+}
+
+@media only screen and (min-width: 478px) {
+  .section3__bloc-chambre {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .section3__bloc-chambre .chambre {
+    width: 48%;
+  }
+
+  .section4 form {
+    max-width: 600px;
+  }
+}
+@media only screen and (min-width: 978px) {
+  .section3__bloc-chambre .chambre {
+    width: 23%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
