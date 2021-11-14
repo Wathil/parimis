@@ -22,6 +22,66 @@
 h2 {
   color: #CC0F02; }
 
+.reserver {
+  position: fixed;
+  bottom: 20rem;
+  right: 30rem;
+  z-index: 99;
+  transform: translate(-15rem, 8rem);
+  background-color: #800A01;
+  border-radius: 0.5rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: "riesling_regular";
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  transition-duration: 500ms;
+  text-decoration: none; }
+  .reserver:hover {
+    color: #800A01;
+    background-color: white; }
+
+footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+  footer .footer__social {
+    background-color: black;
+    display: flex;
+    gap: 3rem; }
+    footer .footer__social .footer__social__item {
+      background-color: black;
+      font-size: 3rem;
+      color: rgba(59, 89, 152, 0.6);
+      cursor: pointer;
+      transition-duration: 500ms; }
+      footer .footer__social .footer__social__item:hover {
+        color: #3b5998; }
+
+.footer__newsletter label {
+  display: block;
+  color: white;
+  background-color: black;
+  text-align: left; }
+.footer__newsletter input {
+  display: block;
+  color: white;
+  background-color: black; }
+
+.footer__address {
+  color: white;
+  background-color: black; }
+
+.footer__copyright {
+  font-size: 2rem;
+  color: white;
+  background-color: black; }
+
 * {
   background-color: white; }
 
@@ -42,7 +102,8 @@ header picture a {
   border-radius: 1.5em;
   color: white;
   text-transform: uppercase;
-  font: "riesling_regular";
+  font-family: "riesling_regular";
+  font-size: 2rem;
   padding: 1em 1.5em;
   transition-duration: 500ms;
   text-decoration: none; }

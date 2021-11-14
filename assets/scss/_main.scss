@@ -22,7 +22,8 @@ header picture a {
     border-radius:1.5em;
     color:white;
     text-transform:uppercase;
-    font: "riesling_regular";
+    font-family: "riesling_regular";
+    font-size: 2rem;
     padding:1em 1.5em;
     transition-duration: 500ms;
     text-decoration: none;
@@ -31,3 +32,4 @@ header picture a {
         background-color: white;
     }
 }
+

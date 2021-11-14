@@ -1,0 +1,50 @@
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    .footer__social {
+        background-color: black;
+        display: flex;
+        gap: 3rem;
+        .footer__social__item {
+            background-color: black;
+            font-size: 3rem;
+            color: rgba($color: #3b5998, $alpha: .6);
+            cursor: pointer;
+            transition-duration: 500ms;
+            &:hover {
+                color: #3b5998;
+            }
+        }
+    }
+}
+
+.footer__newsletter {
+    label {
+        display: block;
+        color: white;
+        background-color: black;
+        text-align: left;
+    }
+    input {
+        display: block;
+        color: white;
+        background-color: black;
+    }
+}
+
+.footer__address {
+    color: white;
+    background-color: black;
+}
+
+.footer__copyright {
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+}
