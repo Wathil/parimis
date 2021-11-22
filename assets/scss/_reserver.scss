@@ -1,11 +1,11 @@
 .reserver {
     position: fixed;
-    bottom: 20rem;
-    right: 30rem;
+    top: 3rem;
+    left: 3rem;
     z-index: 99;
-    transform: translate(-15rem, 8rem);
     background-color: $c3;
     border-radius: 0.5rem;
+    border: 0;
     color:white;
     text-transform: uppercase;
     font-family: "riesling_regular";
@@ -18,4 +18,4 @@
         background-color: white;
     }
   }
-  
+

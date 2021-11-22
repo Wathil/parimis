@@ -1,0 +1,215 @@
+@font-face {
+  font-family: 'riesling_regular';
+  src: url("../fonts/riesling_regular_macroman/riesling-webfont.woff") format("woff");
+  font-display: swap;
+}
+
+.reserver {
+  position: fixed;
+  top: 3rem;
+  left: 3rem;
+  z-index: 99;
+  background-color: #800A01;
+  border-radius: 0.5rem;
+  border: 0;
+  color: white;
+  text-transform: uppercase;
+  font-family: "riesling_regular";
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  text-decoration: none;
+}
+
+.reserver:hover {
+  color: #800A01;
+  background-color: white;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .footer__social {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+}
+
+footer .footer__social .footer__social__item {
+  background-color: black;
+  font-size: 3rem;
+  color: rgba(59, 89, 152, 0.6);
+  cursor: pointer;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+footer .footer__social .footer__social__item:hover {
+  color: #3b5998;
+}
+
+.footer__newsletter label {
+  display: block;
+  color: white;
+  background-color: black;
+  text-align: left;
+}
+
+.footer__newsletter input {
+  display: block;
+  color: white;
+  background-color: black;
+}
+
+.footer__address {
+  color: white;
+  background-color: black;
+}
+
+.footer__copyright {
+  font-size: 2rem;
+  color: white;
+  background-color: black;
+}
+
+.main-head {
+  grid-area: header;
+}
+
+.content {
+  grid-area: content;
+}
+
+.side {
+  grid-area: sidebar;
+}
+
+.ad {
+  grid-area: ad;
+}
+
+.main-footer {
+  grid-area: footer;
+}
+
+.wrapper > * {
+  grid-column: col-start / span 12;
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 6px;
+  }
+  html section h1 {
+    background-color: limegreen;
+  }
+}
+
+@media (max-width: 960px) {
+  html {
+    font-size: 12px;
+  }
+  section h1 {
+    background-color: mediumblue;
+  }
+}
+
+@media (min-width: 961px) {
+  html {
+    font-size: 16px;
+  }
+  section h1 {
+    background-color: orange;
+  }
+}
+
+header {
+  position: relative;
+}
+
+header figure {
+  margin: 0;
+}
+
+header figure img {
+  width: 100%;
+}
+
+header figure div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  font-family: "riesling_regular";
+  padding: 0.5rem 1rem;
+}
+
+header figure div p {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  font-size: 4rem;
+  margin: 0;
+  text-align: center;
+  font-size: 2rem;
+}
+
+* {
+  background-color: white;
+}
+
+header {
+  background-color: white;
+}
+
+header picture {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+header picture a {
+  position: absolute;
+  bottom: 4em;
+  left: 50%;
+  -webkit-transform: translateX(-30rem);
+          transform: translateX(-30rem);
+  background-color: #800A01;
+  border-radius: 1.5em;
+  color: white;
+  text-transform: uppercase;
+  font-family: "riesling_regular";
+  font-size: 2rem;
+  padding: 1em 1.5em;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  text-decoration: none;
+}
+
+header picture a:hover {
+  color: #800A01;
+  background-color: white;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,50 @@
+.main-head {
+    grid-area: header;
+}
+
+.content {
+    grid-area: content;
+}
+
+.side {
+    grid-area: sidebar;
+}
+
+.ad {
+    grid-area: ad;
+}
+
+.main-footer {
+    grid-area: footer;
+}
+
+.wrapper > * {
+    grid-column: col-start / span 12;
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 6px;
+    section h1 {
+      background-color: limegreen;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  html {
+    font-size: 12px;
+  }
+  section h1 {
+    background-color: mediumblue;
+  }
+}
+
+@media (min-width: 961px) {
+  html {
+    font-size: 16px;
+  }
+  section h1{
+    background-color: orange;
+  }
+}

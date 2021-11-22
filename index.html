@@ -9,99 +9,49 @@
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/scss/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Hôtel Parimis</title>
 </head>
 
 <body>
     <header>
-        <a href="#" class="reserver">Réserver</a>
-            <picture>
-                <source media="(min-width: 1300px)" srcset="assets/img/1grand.jpeg">
-                <source media="(min-width: 960px)" srcset="assets/img/1moyen.jpeg">
-                <source media="(min-width: 400px)" srcset="assets/img/1petit.jpeg">
-                <img src="assets/img/1hd.jpeg" alt="header image">
-            </picture>
+        <figure>
+            <img src="assets/img/header1.jpeg" alt="Hôtel grand"
+                srcset="assets/img/header1.jpeg 1600w, assets/img/header2.jpeg 1200w, assets/img/header3.jpeg 760w, assets/img/header4.jpeg 390w"
+                sizes="(min-width:400px) 775px, (min-width:960px) 1550px, (min-width:1600px) 2100px, 100vw">
+                <div>
+                    <p>Hôtel Parimis</p>
+                    <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                </div>
+        </figure>
+        <button class="reserver">Réservation</button>
     </header>
 
     <main>
-    <section>
-        <h1>Section 2 présentation de l'hôtel</h1>
-        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore possimus aspernatur quod officia reprehenderit. Libero reiciendis natus deserunt possimus eligendi suscipit delectus dolores quia? Laboriosam ut aut obcaecati totam deserunt?
-        Facere voluptates pariatur ratione eligendi architecto quasi eius fugit repellendus, vitae sequi. Ut nobis quos, ipsam reiciendis, enim expedita aperiam cupiditate facere vel recusandae unde! Quam nemo eveniet aperiam consequatur.
-        Animi pariatur odit officia deserunt nam, natus dolores quibusdam necessitatibus a eaque voluptatibus dolore doloribus, incidunt molestias? Asperiores, dolores? Aliquam aspernatur voluptates, iste ab dolorum neque exercitationem! Laboriosam, ullam provident?
-        Quam excepturi dolor minima corrupti sed? In ducimus, accusamus nulla unde sapiente non deserunt magnam exercitationem similique officia laudantium nihil. Natus fugit laboriosam architecto quasi corrupti suscipit, provident commodi quisquam?
-        Maiores mollitia voluptate sed aut voluptates quod optio ab quo culpa perspiciatis ipsam ullam, nisi eligendi animi provident reiciendis, odio error atque? Perferendis adipisci omnis dolor sequi excepturi nihil optio.</h4>
-    </section>
-        <!-- <section class="section3">
+        <section>
+            <h1>Section 2 présentation de l'hôtel</h1>
+            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore possimus aspernatur quod officia
+                reprehenderit. Libero reiciendis natus deserunt possimus eligendi suscipit delectus dolores quia?
+                Laboriosam ut aut obcaecati totam deserunt?
+                Facere voluptates pariatur ratione eligendi architecto quasi eius fugit repellendus, vitae sequi. Ut
+                nobis quos, ipsam reiciendis, enim expedita aperiam cupiditate facere vel recusandae unde! Quam nemo
+                eveniet aperiam consequatur.
+                Animi pariatur odit officia deserunt nam, natus dolores quibusdam necessitatibus a eaque voluptatibus
+                dolore doloribus, incidunt molestias? Asperiores, dolores? Aliquam aspernatur voluptates, iste ab
+                dolorum neque exercitationem! Laboriosam, ullam provident?
+                Quam excepturi dolor minima corrupti sed? In ducimus, accusamus nulla unde sapiente non deserunt magnam
+                exercitationem similique officia laudantium nihil. Natus fugit laboriosam architecto quasi corrupti
+                suscipit, provident commodi quisquam?
+                Maiores mollitia voluptate sed aut voluptates quod optio ab quo culpa perspiciatis ipsam ullam, nisi
+                eligendi animi provident reiciendis, odio error atque? Perferendis adipisci omnis dolor sequi excepturi
+                nihil optio.</h4>
+        </section>
+        <section class="section3">
             <h2 class="section3__titre">Nos chambres</h2>
-            <div class="section3__bloc-chambre">
-                <div class="chambre">
-                    <div class="chambre__image"><img src="assets/img/photo3.jpg" width="100%" srcset="assets/img/photo3.jpg" alt="Photo de la chambre simple"></div>
-                    <div class="chambre__description">
-                        <h3>Chambre standard</h3>
-                        <p>Tarif pour :   <br>
-                            1 lit double <br>
-                            Superficie : 25m2 <br>
-                            <span>Annulation gratuite</span> <br>
-                            Petit-déjeuner inclus
-                            Wi-Fi gratuit
-                            Télévision à écran plat
-                        </p>
-                        <button>Réserver</button>
-                    </div>
-                    
-                </div>
-                <div class="chambre">
-                    <div class="chambre__image"><img src="assets/img/photo2.jpg" width="100%" srcset="assets/img/photo3.jpg" alt="Photo de la chambre double"></div>
-                    <div class="chambre__description">
-                        <h3>Chambre double avec lit simple</h3>
-                        <p>Tarif pour :   <br>
-                            1 lit double <br>
-                            Superficie : 25m2 <br>
-                            <span>Annulation gratuite</span> <br>
-                            Petit-déjeuner inclus
-                            Wi-Fi gratuit
-                            Télévision à écran plat
-                        </p>
-                        <button>Réserver</button>
-                    </div>
-                </div>
-                <div class="chambre">
-                    <div class="chambre__image"><img src="assets/img/photo4.jpg" width="100%" srcset="assets/img/photo3.jpg" alt="Photo de la chambre double"></div>
-                    <div class="chambre__description">
-                        <h3>Chambre double avec lits séparés</h3>
-                        <p>Tarif pour :   <br>
-                            1 lit double <br>
-                            Superficie : 25m2 <br>
-                            <span>Annulation gratuite</span> <br>
-                            Petit-déjeuner inclus
-                            Wi-Fi gratuit
-                            Télévision à écran plat
-                        </p>
-                        <button>Réserver</button>
-                    </div>
-                </div>
-                <div class="chambre">
-                    <div><img src="assets/img/photo5.jpg" width="100%" srcset="assets/img/photo3.jpg" alt="Photo de la suite"></div>
-                    <div class="chambre__description">
-                        <h3>Suite présidentielle</h3>
-                        <p>Tarif pour :   <br>
-                            1 lit double <br>
-                            Superficie : 25m2 <br>
-                            <span>Annulation gratuite</span> <br>
-                            Petit-déjeuner inclus
-                            Wi-Fi gratuit
-                            Télévision à écran plat
-                        </p>
-                        <button>Réserver</button>
-                    </div>
-                </div>
-            </div>
         </section>
         <section>
-            
-        </section> -->
+
+        </section>
     </main>
     <footer>
         <div class="footer__social">
