@@ -22,29 +22,68 @@
     grid-column: col-start / span 12;
 }
 
-@media (max-width: 400px) {
-  html {
-    font-size: 6px;
-    section h1 {
-      background-color: limegreen;
-    }
-  }
+.footer_wrapper {
+  display: grid;
+  grid-template-columns: 90%;
+  grid-template-areas:
+      "fs"
+      "fn"
+      "fa"
+      "fc";
 }
 
-@media (max-width: 960px) {
+.footer__social {
+  grid-area: fs;
+}
+
+.footer__newsletter {
+  grid-area: fn;
+}
+
+.footer__address {
+  grid-area: fa;
+}
+
+.footer__copyright {
+  grid-area: fc;
+  border-top: 1px solid white;
+}
+
+@media (min-width: 640px) {
   html {
     font-size: 12px;
   }
   section h1 {
     background-color: mediumblue;
   }
+  .footer_wrapper {
+    grid-template-columns: 40% 40%;
+    display: grid;
+    grid-template-areas:
+        "fs fn"
+        "fa fc";
+  }
+  .footer__copyright {
+    border-top: 0;
+  }
 }
 
-@media (min-width: 961px) {
+
+@media (min-width: 1200px) {
   html {
     font-size: 16px;
   }
   section h1{
     background-color: orange;
+  }
+  .footer_wrapper {
+    grid-template-columns: 30% 30% 30%;
+    display: grid;
+    grid-template-areas:
+        "fs fn fa"
+        "fc fc fc";
+  }
+  .footer__copyright {
+    border-top: 1px solid white;
   }
 }

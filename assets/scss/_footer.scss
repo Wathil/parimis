@@ -1,50 +1,67 @@
-footer {
+.footer_wrapper {
     color: white;
     background-color: black;
     text-align: center;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     .footer__social {
+        margin: 1rem 0rem;
         background-color: black;
         display: flex;
+        margin: 0 auto;
         gap: 3rem;
         .footer__social__item {
             background-color: black;
             font-size: 3rem;
-            color: rgba($color: #3b5998, $alpha: .6);
+            color: rgba($color: dodgerblue, $alpha: .6);
             cursor: pointer;
             transition-duration: 500ms;
             &:hover {
-                color: #3b5998;
+                color: skyblue;
+            }
+            i {
+                background-color: black;
             }
         }
     }
-}
-
-.footer__newsletter {
-    label {
-        display: block;
+    .footer__newsletter {
+        width: 80%;
+        background-color: blue;
+        margin: 1rem auto 1rem auto;;
+        form {
+            background-color: red;
+            label {
+                display: block;
+                color: grey;
+                background-color: black;
+                text-align: left;
+            }
+            input {
+                display: block;
+                color: white;
+                border: 1px solid white;
+                background-color: black;
+                width: 100%;
+            }
+        }
+    }
+    .footer__address {
+        background-color: black;
+        margin: 1rem 0rem;
+        p {
         color: white;
         background-color: black;
-        text-align: left;
+        margin: 0;
+            b {
+                background-color: black;
+            }
+        }
     }
-    input {
-        display: block;
+    .footer__copyright {
+        padding: 1rem 0rem;
+        margin: 1rem 0rem;
+        font-size: 2rem;
         color: white;
         background-color: black;
     }
-}
-
-.footer__address {
-    color: white;
-    background-color: black;
-}
-
-.footer__copyright {
-    font-size: 2rem;
-    color: white;
-    background-color: black;
 }
