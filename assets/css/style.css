@@ -27,6 +27,11 @@
   background-color: white;
 }
 
+.sectionh1 {
+  padding: 1rem;
+  text-align: justify;
+}
+
 .footer_wrapper {
   color: white;
   background-color: black;
@@ -39,12 +44,11 @@
 }
 
 .footer_wrapper .footer__social {
-  margin: 1rem 0rem;
+  margin: 1rem auto;
   background-color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 auto;
   gap: 3rem;
 }
 
@@ -66,13 +70,13 @@
 }
 
 .footer_wrapper .footer__newsletter {
-  width: 80%;
-  background-color: blue;
-  margin: 1rem auto 1rem auto;
+  width: MIN(60%, 20rem);
+  background-color: black;
+  margin: 1rem auto;
 }
 
 .footer_wrapper .footer__newsletter form {
-  background-color: red;
+  background-color: black;
 }
 
 .footer_wrapper .footer__newsletter form label {
@@ -87,7 +91,7 @@
   color: white;
   border: 1px solid white;
   background-color: black;
-  width: 100%;
+  width: 80%;
 }
 
 .footer_wrapper .footer__address {
@@ -174,9 +178,6 @@
   html {
     font-size: 12px;
   }
-  section h1 {
-    background-color: mediumblue;
-  }
   .footer_wrapper {
     -ms-grid-columns: 40% 40%;
         grid-template-columns: 40% 40%;
@@ -192,9 +193,6 @@
 @media (min-width: 1200px) {
   html {
     font-size: 16px;
-  }
-  section h1 {
-    background-color: orange;
   }
   .footer_wrapper {
     -ms-grid-columns: 30% 30% 30%;

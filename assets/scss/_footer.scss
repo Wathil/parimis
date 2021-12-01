@@ -5,10 +5,9 @@
     align-items: center;
     justify-content: space-around;
     .footer__social {
-        margin: 1rem 0rem;
+        margin: 1rem auto;
         background-color: black;
         display: flex;
-        margin: 0 auto;
         gap: 3rem;
         .footer__social__item {
             background-color: black;
@@ -25,11 +24,11 @@
         }
     }
     .footer__newsletter {
-        width: 80%;
-        background-color: blue;
-        margin: 1rem auto 1rem auto;;
+        width: MIN(60%, 20rem);
+        background-color: black;
+        margin: 1rem auto;
         form {
-            background-color: red;
+            background-color: black;
             label {
                 display: block;
                 color: grey;
@@ -41,7 +40,7 @@
                 color: white;
                 border: 1px solid white;
                 background-color: black;
-                width: 100%;
+                width: 80%;
             }
         }
     }
