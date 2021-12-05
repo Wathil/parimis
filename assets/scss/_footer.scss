@@ -24,33 +24,37 @@
         }
     }
     .footer__newsletter {
-        width: MIN(60%, 20rem);
         background-color: black;
-        margin: 1rem auto;
+        margin: 1rem;
         form {
             background-color: black;
             label {
+                margin: 0 auto;
+                width: MIN(60%, 20rem);
                 display: block;
                 color: grey;
                 background-color: black;
                 text-align: left;
             }
             input {
+                margin: 0 auto;
+                width: MIN(60%, 20rem);
                 display: block;
                 color: white;
                 border: 1px solid white;
                 background-color: black;
-                width: 80%;
+            }
+            .footer_newsletter_submit {
+                margin: 1rem auto;
+                width: MIN(40%, 10rem);
             }
         }
     }
     .footer__address {
-        background-color: black;
-        margin: 1rem 0rem;
         p {
-        color: white;
-        background-color: black;
-        margin: 0;
+            color: white;
+            background-color: black;
+            margin: 0;
             b {
                 background-color: black;
             }

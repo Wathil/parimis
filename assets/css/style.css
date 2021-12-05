@@ -30,6 +30,7 @@
 .sectionh1 {
   padding: 1rem;
   text-align: justify;
+  font-family: "riesling_regular";
 }
 
 .footer_wrapper {
@@ -70,9 +71,8 @@
 }
 
 .footer_wrapper .footer__newsletter {
-  width: MIN(60%, 20rem);
   background-color: black;
-  margin: 1rem auto;
+  margin: 1rem;
 }
 
 .footer_wrapper .footer__newsletter form {
@@ -80,6 +80,8 @@
 }
 
 .footer_wrapper .footer__newsletter form label {
+  margin: 0 auto;
+  width: MIN(60%, 20rem);
   display: block;
   color: grey;
   background-color: black;
@@ -87,16 +89,17 @@
 }
 
 .footer_wrapper .footer__newsletter form input {
+  margin: 0 auto;
+  width: MIN(60%, 20rem);
   display: block;
   color: white;
   border: 1px solid white;
   background-color: black;
-  width: 80%;
 }
 
-.footer_wrapper .footer__address {
-  background-color: black;
-  margin: 1rem 0rem;
+.footer_wrapper .footer__newsletter form .footer_newsletter_submit {
+  margin: 1rem auto;
+  width: MIN(40%, 10rem);
 }
 
 .footer_wrapper .footer__address p {

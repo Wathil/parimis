@@ -16,4 +16,7 @@
 			"savePath": "/assets/css"
 		}
 	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "flex"
+	},
 }
