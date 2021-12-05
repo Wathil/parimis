@@ -1,0 +1,146 @@
+header {
+    height: 60px;
+    background-color: $c5;
+    display: flex;
+    justify-content: space-between;
+    line-height: 60px;
+    padding: 0 20px;
+    div {
+        font-family: 'riesling_regular';
+        font-size: 3em;
+        color: $c1;
+        text-shadow: 1px 3px 0 $c2;
+
+        a {
+            color : $c1;
+        }
+    }
+
+    div, nav, ul, li {
+        background-color: $c5;
+    }
+
+    ul {
+        display: flex;
+        margin: 0;
+
+        a {
+            display: inline-block;
+            height: 100%;
+            padding: 0 10px;
+
+            &:hover {
+                color: $c1;
+                transition: .3s color;
+            }
+        }
+        
+    }
+    li {
+        list-style: none;
+        
+
+        &:hover {
+            background-color: $c4;
+            transition: .3s background-color;
+            
+        }
+    }
+    
+
+}
+#section1 {
+    position: relative;
+    h2 {
+        text-align: center;
+        background-color:none;
+        padding-top: 40px;
+        font-size: 2em;
+    }
+    #soulignement {
+        width: 30%;
+        height: 4px;
+        background-color: $c4;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    #prix {
+        position: absolute;
+        right: 40px;
+        top: 5px;
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: $c1;
+        color: $c2;
+        font-weight: bold;
+        font-size: 2em;
+        box-shadow: 2px 4px 0 $c4;
+    }
+    #euro {
+        margin: 0;
+        padding: 0;
+        color: red;
+        font-size: .7em;
+        position: relative;
+        top: -5px
+    }
+    #description {
+        font-size: 1.5em;
+        padding: 20px;
+        text-align: center;
+    }
+}
+#section2 {
+    padding: 10px;
+    background-color: $c4;
+    img{
+        width: 100%;
+    }
+    div:last-child{
+        background-color: $c4;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        
+        img {
+            width: 100%;
+        }
+
+        
+        @media only screen and (min-width: 470px){
+            img {
+                width: 48%;
+            }
+        }
+        @media only screen and (min-width: 900px){
+            img {
+                width: 24%;
+            }
+        }
+    }
+}
+
+#section3 {
+    position: fixed;
+    bottom: 40px;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 2px 4px 0 $c2;
+    cursor: pointer;
+    background-color: rgb(238, 231, 231);
+
+    &:hover {
+        background-color: #fff;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: $c2
+}

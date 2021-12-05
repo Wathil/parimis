@@ -35,6 +35,7 @@ Une page « Chambres »
 • On y trouvera des photos de chambres
 • Les caractéristiques de chaque chambre et les tarifs
 Laissez libre cours à votre imagination et inspirez-vous de sites existants
+
 Une page réservation
 
 Cette page contient le formulaire de réservation
