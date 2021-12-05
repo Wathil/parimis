@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Hôtel Parimis</title>
+    <style>
+        .section-reservation{
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="assets/img/header1.jpeg" alt="Hôtel grand"
+                srcset="assets/img/header1.jpeg 1600w, assets/img/header2.jpeg 1200w, assets/img/header3.jpeg 760w, assets/img/header4.jpeg 390w"
+                sizes="(min-width:400px) 775px, (min-width:960px) 1550px, (min-width:1600px) 2100px, 100vw">
+                <div>
+                    <p>Hôtel Parimis</p>
+                    <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                </div>
+        </figure>
+        <button class="reserver">Réservation</button>
+    </header>
+
+    <main>
+        <section>
+            <h1>Réservation</h1>
+            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore possimus aspernatur quod officia
+                reprehenderit. Libero reiciendis natus deserunt possimus eligendi suscipit delectus dolores quia?
+                Laboriosam ut aut obcaecati totam deserunt?
+                Facere voluptates pariatur ratione eligendi architecto quasi eius fugit repellendus, vitae sequi. Ut
+                nobis quos, ipsam reiciendis, enim expedita aperiam cupiditate facere vel recusandae unde! Quam nemo
+                eveniet aperiam consequatur.
+                Animi pariatur odit officia deserunt nam, natus dolores quibusdam necessitatibus a eaque voluptatibus
+                dolore doloribus, incidunt molestias? Asperiores, dolores? Aliquam aspernatur voluptates, iste ab
+                dolorum neque exercitationem! Laboriosam, ullam provident?
+                Quam excepturi dolor minima corrupti sed? In ducimus, accusamus nulla unde sapiente non deserunt magnam
+                exercitationem similique officia laudantium nihil. Natus fugit laboriosam architecto quasi corrupti
+                suscipit, provident commodi quisquam?
+                Maiores mollitia voluptate sed aut voluptates quod optio ab quo culpa perspiciatis ipsam ullam, nisi
+                eligendi animi provident reiciendis, odio error atque? Perferendis adipisci omnis dolor sequi excepturi
+                nihil optio.</h4>
+        </section>
+        <section class="section-reservation">
+            <h2>Réservation</h2>
+            <form>
+                <div class="form-group">
+                    <label for="firstname">Prénom</label>
+                    <input type="text" placeholder="Votre prénom">
+                </div>
+                <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input type="text" name="name" id="name" placeholder="Votre nom">
+                </div>
+                <div class="form-group">
+                    <label for="email">Adresse e-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Votre email">
+                </div>
+                <div class="form-group">
+                    <label for="email">Personnes</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+    </main>
+    <footer class="footer_wrapper">
+        <div class="footer__social">
+            <div class="footer__social__item"><i class="fab fa-facebook"></i></div>
+            <div class="footer__social__item"><i class="fab fa-linkedin"></i></div>
+            <div class="footer__social__item"><i class="fab fa-twitter"></i></div>
+        </div>
+        <div class="footer__newsletter">
+            <form action="response.html" method="get">
+                <label for="email">Newsletter</label>
+                <input type="email" id="email" placeholder="Email" required>
+            </form>
+        </div>
+        <div class="footer__address">
+            <address class="footer__address">
+                <p><b>Hôtel Parimis</b></p>
+                <p>53 bd Georges</p>
+                <p>75000 Paris</p>
+            </address>
+        </div>
+        <div class="footer__copyright">
+            &copy;&nbsp;2022
+        </div>
+    </footer>
+</body>
+
+</html>
