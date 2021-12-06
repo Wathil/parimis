@@ -27,6 +27,12 @@
   background-color: white;
 }
 
+.sectionh1 {
+  padding: 1rem;
+  text-align: justify;
+  font-family: "riesling_regular";
+}
+
 .footer_wrapper {
   color: white;
   background-color: black;
@@ -39,12 +45,11 @@
 }
 
 .footer_wrapper .footer__social {
-  margin: 1rem 0rem;
+  margin: 1rem auto;
   background-color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 auto;
   gap: 3rem;
 }
 
@@ -66,39 +71,46 @@
 }
 
 .footer_wrapper .footer__newsletter {
-  width: 80%;
-  background-color: blue;
-  margin: 1rem auto 1rem auto;
+  background-color: black;
+  margin: 1rem;
 }
 
 .footer_wrapper .footer__newsletter form {
-  background-color: red;
+  background-color: black;
 }
 
-.footer_wrapper .footer__newsletter form label {
-  display: block;
+.footer_wrapper .footer__newsletter form .footer_newsletter_div {
+  background-color: black;
+}
+
+.footer_wrapper .footer__newsletter form .footer_newsletter_div label {
+  margin: 0 auto;
   color: grey;
   background-color: black;
   text-align: left;
+  font-family: "riesling_regular";
 }
 
-.footer_wrapper .footer__newsletter form input {
-  display: block;
+.footer_wrapper .footer__newsletter form .footer_newsletter_div input {
+  margin: 0 auto;
   color: white;
   border: 1px solid white;
   background-color: black;
-  width: 100%;
+  font-family: "riesling_regular";
 }
 
-.footer_wrapper .footer__address {
-  background-color: black;
-  margin: 1rem 0rem;
+.footer_wrapper .footer__newsletter form .footer_newsletter_div .footer_newsletter_submit {
+  color: black;
+  background-color: white;
+  border: 0;
+  font-family: "riesling_regular";
 }
 
 .footer_wrapper .footer__address p {
   color: white;
   background-color: black;
   margin: 0;
+  font-family: "riesling_regular";
 }
 
 .footer_wrapper .footer__address p b {
@@ -106,6 +118,7 @@
 }
 
 .footer_wrapper .footer__copyright {
+  font-family: "riesling_regular";
   padding: 1rem 0rem;
   margin: 1rem 0rem;
   font-size: 2rem;
@@ -142,7 +155,7 @@
   display: grid;
   -ms-grid-columns: 90%;
       grid-template-columns: 90%;
-      grid-template-areas: "fs" "fn" "fa" "fc";
+      grid-template-areas: "fs" "fn" "fa" "fc";
 }
 
 .footer__social {
@@ -174,15 +187,12 @@
   html {
     font-size: 12px;
   }
-  section h1 {
-    background-color: mediumblue;
-  }
   .footer_wrapper {
     -ms-grid-columns: 40% 40%;
         grid-template-columns: 40% 40%;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "fs fn" "fa fc";
+        grid-template-areas: "fs fn" "fa fc";
   }
   .footer__copyright {
     border-top: 0;
@@ -193,15 +203,12 @@
   html {
     font-size: 16px;
   }
-  section h1 {
-    background-color: orange;
-  }
   .footer_wrapper {
     -ms-grid-columns: 30% 30% 30%;
         grid-template-columns: 30% 30% 30%;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "fs fn fa" "fc fc fc";
+        grid-template-areas: "fs fn fa" "fc fc fc";
   }
   .footer__copyright {
     border-top: 1px solid white;
@@ -210,17 +217,14 @@
 
 header {
   position: relative;
-}
-
-header figure {
   margin: 0;
 }
 
-header figure img {
+header img {
   width: 100%;
 }
 
-header figure div {
+header div {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -231,9 +235,11 @@ header figure div {
   text-transform: uppercase;
   font-family: "riesling_regular";
   padding: 0.5rem 1rem;
+  height: 10rem;
 }
 
-header figure div p {
+header div p {
+  width: 20rem;
   background-color: rgba(0, 0, 0, 0);
   color: white;
   font-size: 4rem;
@@ -398,96 +404,6 @@ h2 {
 
 * {
   background-color: white;
-}
-
-header {
-  background-color: white;
-}
-
-header picture {
-  position: relative;
-  display: block;
-  text-align: center;
-}
-
-header picture a {
-  position: absolute;
-  bottom: 4em;
-  left: 50%;
-  -webkit-transform: translateX(-30rem);
-          transform: translateX(-30rem);
-  background-color: #800A01;
-  border-radius: 1.5em;
-  color: white;
-  text-transform: uppercase;
-  font-family: "riesling_regular";
-  font-size: 2rem;
-  padding: 1em 1.5em;
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  text-decoration: none;
-}
-
-header picture a:hover {
-  color: #800A01;
-  background-color: white;
-}
-
-header {
-  height: 60px;
-  background-color: #f18c85;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  line-height: 60px;
-  padding: 0 20px;
-}
-
-header div {
-  font-family: 'riesling_regular';
-  font-size: 3em;
-  color: #fff;
-  text-shadow: 1px 3px 0 #000;
-}
-
-header div a {
-  color: #fff;
-}
-
-header div, header nav, header ul, header li {
-  background-color: #f18c85;
-}
-
-header ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0;
-}
-
-header ul a {
-  display: inline-block;
-  height: 100%;
-  padding: 0 10px;
-}
-
-header ul a:hover {
-  color: #fff;
-  -webkit-transition: .3s color;
-  transition: .3s color;
-}
-
-header li {
-  list-style: none;
-}
-
-header li:hover {
-  background-color: #CC0F02;
-  -webkit-transition: .3s background-color;
-  transition: .3s background-color;
 }
 
 #section1 {

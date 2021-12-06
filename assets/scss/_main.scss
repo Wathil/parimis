@@ -2,33 +2,3 @@
     background-color: white;
 }
 
-header {
-    background-color: white;
-}
-
-header picture {
-    position: relative;
-    display: block;
-    text-align: center;
-}
-
-header picture a {
-    position: absolute;
-    bottom:4em;
-    left: 50%;
-    transform: translateX(-30rem);
-    background-color: $c3;
-    border-radius:1.5em;
-    color:white;
-    text-transform:uppercase;
-    font-family: "riesling_regular";
-    font-size: 2rem;
-    padding:1em 1.5em;
-    transition-duration: 500ms;
-    text-decoration: none;
-    &:hover {
-        color: $c3;
-        background-color: white;
-    }
-}
-

@@ -28,25 +28,29 @@
         margin: 1rem;
         form {
             background-color: black;
-            label {
-                margin: 0 auto;
-                width: MIN(60%, 20rem);
-                display: block;
-                color: grey;
+            .footer_newsletter_div {
                 background-color: black;
-                text-align: left;
-            }
-            input {
-                margin: 0 auto;
-                width: MIN(60%, 20rem);
-                display: block;
-                color: white;
-                border: 1px solid white;
-                background-color: black;
-            }
-            .footer_newsletter_submit {
-                margin: 1rem auto;
-                width: MIN(40%, 10rem);
+                label {
+                    margin: 0 auto;
+                    color: grey;
+                    background-color: black;
+                    text-align: left;
+                    font-family: "riesling_regular";
+                }
+                input {
+                    margin: 0 auto;
+                    // width: MIN(60%, 20rem);
+                    color: white;
+                    border: 1px solid white;
+                    background-color: black;
+                    font-family: "riesling_regular";
+                }
+                .footer_newsletter_submit {
+                    color: black;
+                    background-color: white;
+                    border: 0;
+                    font-family: "riesling_regular";
+                }
             }
         }
     }
@@ -55,12 +59,14 @@
             color: white;
             background-color: black;
             margin: 0;
+            font-family: "riesling_regular";
             b {
                 background-color: black;
             }
         }
     }
     .footer__copyright {
+        font-family: "riesling_regular";
         padding: 1rem 0rem;
         margin: 1rem 0rem;
         font-size: 2rem;
