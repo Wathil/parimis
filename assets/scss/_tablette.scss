@@ -1,0 +1,14 @@
+@media only screen and (min-width: 700px){
+    .section3__bloc-chambre {
+        flex-direction: row;
+        flex-wrap: wrap;
+        .chambre {
+            width: 48%;
+        }
+    }
+    .section4 {
+        form {
+            max-width: 600px;
+        }
+    }
+}
